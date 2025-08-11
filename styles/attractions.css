@@ -1,0 +1,75 @@
+/* Variables from site plan */
+:root {
+    --primary-color: #006400;
+    --secondary-color: #FFD700;
+    --font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: var(--secondary-color);
+}
+
+.intro {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.attractions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.attractions-grid article {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.attractions-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.attractions-grid h3 {
+    color: var(--primary-color);
+    margin: 0.5rem 0;
+}
+
+.attractions-grid p {
+    padding: 0 1rem;
+    color: #333;
+}
+
+footer {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

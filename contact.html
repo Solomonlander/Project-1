@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Solomon Lander Emmanson">
+    <meta name="description" content="Contact Discover Akwa Ibom State tourism team">
+    <title>Contact - Discover Akwa Ibom State</title>
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <header>
+        <h1>Discover Akwa Ibom State</h1>
+        <button id="menu-btn" aria-label="Menu">&#9776;</button>
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="attractions.html">Attractions</a>
+            <a href="contact.html">Contact</a>
+            <a href="references.html">References</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="form-status"></p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Discover Akwa Ibom State</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
